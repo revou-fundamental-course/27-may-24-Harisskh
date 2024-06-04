@@ -2,37 +2,43 @@
 <html>
 <head>
   <title>SMPN 1 CURUG TANGERANG</title>
-  <link rel="stylesheet" href="CSS/design.css">
+  <link rel="stylesheet" href="CSS/design web.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
   <header>
-    <img src="images\logo.png" alt="logo" >
+    <img src="images\logo.png" class="logo">
     <nav class="container">
       <ul>
-        <a href="#">Home</a>
-        <a href="#">Profile</a>
-        <a href="#">Fasility</a>
-        <a href="#">Achievement</a>
-        <a href="#">Contact</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#profile">Profile</a>
+        <a href="#fasilitas">Fasility</a>
+        <a href="#prestasi">Achievement</a>
+        <a href="#kontak">Contact</a>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="about-us">
+    <section id="home">Home</section>
+    <section id="profile">
       <h2>About SMPN 1 CURUG TANGERANG</h2>
-      <p></p>
-    </section>
-
-    <section id="visimisi">
-      <h2>Visi & Misi</h2>
-      <p>Visi:</p>
+      <p></p><br>
+      <h2>Visi & Misi</h2><br>
+      <p>Visi:</p><br>
       <p>Misi:</p>
     </section>
 
-    <section id="message-us">
-      <h2>Message Us</h2>
+    <section id="fasilitas">
+      <h2>Fasilitas</h2>
+    </section>
+
+    <section id="prestasi">
+      <h2>Prestasi</h2>
+    </section>
+
+    <section id="kontak">
+      <h2>Hubungi Kami</h2>
       <form id="message-form">
         <label for="name">Nama:</label>
         <input type="text" id="name" placeholder="Nama Anda">
@@ -49,6 +55,7 @@
         <button type="submit">Kirim Pesan</button>
       </form>
     </section>
+  <script src="JS\script.js"></script>
   </main>
 </body>
 </html>
