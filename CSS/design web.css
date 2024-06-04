@@ -73,8 +73,8 @@ section{
   justify-content: center;
   align-items: center;
   background: #3abef9;
-  /* font-size: 100px;
-  font-weight: 700; */
+  font-size: 100px;
+  font-weight: 700;
 }
 
 section:nth-child(odd){
