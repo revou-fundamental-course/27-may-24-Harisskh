@@ -1,26 +1,33 @@
-<!DOCTYPE html>
-<html>
+
+</body<!DOCTYPE html>
+<html lang="id">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SMPN 1 CURUG TANGERANG</title>
   <link rel="stylesheet" href="CSS/design web.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script defer src="JS\script.js" type="text/javascript"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> -->
 </head>
 <body>
   <header>
+    <a href="school web.html">
     <img src="images\logo.png" class="logo">
+    </a>
     <nav class="container">
-      <ul>
         <a href="#home" class="active">Home</a>
         <a href="#profile">Profile</a>
-        <a href="#fasilitas">Fasility</a>
+        <a href="#fasilitas">Facility</a>
         <a href="#prestasi">Achievement</a>
         <a href="#kontak">Contact</a>
-      </ul>
     </nav>
   </header>
 
   <main>
-    <section id="home">Home</section>
+    <section id="home">
+      <div></div>
+    </section>
     <section id="profile">
       <h2>About SMPN 1 CURUG TANGERANG</h2>
       <p></p><br>
@@ -30,32 +37,38 @@
     </section>
 
     <section id="fasilitas">
-      <h2>Fasilitas</h2>
+      <h2>Our Facility</h2>
+        <img src="images\labkimia.jpg" class="imgbox">
+        <img src="images\labkom.jpg" class="imgbox">
+        <img src="images\senbud.jpg" class="imgbox">
+        <img src="images\perpus.jpg" class="imgbox">
     </section>
 
     <section id="prestasi">
-      <h2>Prestasi</h2>
+      <h2>Our Achievement</h2>
     </section>
 
     <section id="kontak">
-      <h2>Hubungi Kami</h2>
-      <form id="message-form">
-        <label for="name">Nama:</label>
-        <input type="text" id="name" placeholder="Nama Anda">
-        
-        <label for="">No Hp:</label>
-        <input type="text" id="name" placeholder="08**********">
+      <h2>Message Us</h2>
+      <div class="inputform">
+        <form id="message-form" autocomplete="on">
+          <p class="formlbl">Nama:</p>
+          <input type="text" id="text" class="input" placeholder="Your Name" required>
+          <label class="label"></label>
+          <p class="formlbl">No Hp:</p>
+          <input type="text" id="text" class="input" placeholder="0812-3456-7890" required maxlength="15">
+          <label class="label"></label>
+          <p class="formlbl">Email:</p> 
+          <label class="label"></label>
+          <input type="email" id="text" class="input" placeholder="loremipsum@gmail.com" required>
+          <p class="formlbl">Pesan:</p>
+          <label class="label"></label>
+          <textarea class="input" id="message" cols="8" rows="10" placeholder="your Message"></textarea>
 
-        <label for="email">Email</label>
-        <input type="text" id="email" placeholder="Email Anda">
-
-        <label for="message">Pesan:</label>
-        <textarea id="message" cols="8" rows="10" placeholder="Pesan Anda"></textarea>
-
-        <button type="submit">Kirim Pesan</button>
-      </form>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
     </section>
-  <script src="JS\script.js"></script>
   </main>
 </body>
 </html>
